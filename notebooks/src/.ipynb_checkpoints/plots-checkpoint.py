@@ -3,6 +3,11 @@ import seaborn as sns
 
 from sklearn.metrics import (PredictionErrorDisplay)
 
+sns.set_theme(palette='bright')
+
+SCATTER_ALPHA = 0.2
+PALETTE = 'icefire'
+
 def plot_coefs(coefs_dataFrame, title='coefs'):
     return coefs_dataFrame.plot.barh(
         legend=False,

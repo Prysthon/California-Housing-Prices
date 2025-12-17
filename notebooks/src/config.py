@@ -8,6 +8,7 @@ PASTA_DADOS = PASTA_PROJETO / "dados"
 # DADOS
 # Dados reais (fonte: https://www.kaggle.com/datasets/camnugent/california-housing-prices/data)
 REAL_DATA = PASTA_DADOS / "housing.csv"
+CLEAN_DATA = PASTA_DADOS / "clean_data.parquet"
 
 # coloque abaixo o caminho para os arquivos de modelos de seu projeto
 PASTA_MODELOS = PASTA_PROJETO / "modelos"

@@ -1,0 +1,13 @@
+[project]
+name = "housing-ml"
+version = "0.1.0"
+description = "MLE-style rebuild of California Housing project"
+requires-python = ">=3.10"
+
+dependencies = []
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -10,9 +10,11 @@ PASTA_DADOS = PASTA_PROJETO / "dados"
 REAL_DATA = PASTA_DADOS / "housing.csv"
 CLEAN_DATA = PASTA_DADOS / "clean_data.parquet"
 REAL_GEO_DATA = PASTA_DADOS / "california.geojson"
+GEO_DATA_MEDIAN = PASTA_DADOS / "gdf_counties.parquet"
 
 # coloque abaixo o caminho para os arquivos de modelos de seu projeto
 PASTA_MODELOS = PASTA_PROJETO / "modelos"
+FINAL_MODEL = PASTA_MODELOS / "ridge_poly_target_quantile.joblib"
 
 # coloque abaixo outros caminhos que você julgar necessário
 PASTA_RELATORIOS = PASTA_PROJETO / "relatorios"
